@@ -1,0 +1,148 @@
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ul {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.main-page {
+    position: relative;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bold;
+    font-size: 40px;
+    color: cadetblue;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+}
+
+.left-aside {
+    width: 25%;
+    height: 900px;
+    border-right: 1px #ddd solid;
+    position: fixed;
+    transition: all 0.5s ease;
+}
+
+nav ul li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+nav ul li a {
+    color: #1eafed;
+}
+
+.right-aside {
+    width: 75%;
+    display: block;
+    float: right;
+}
+
+.blog-entry {
+    margin-top: 5rem;
+}
+
+.article-avatar {
+    width: 150px;
+    height: 150px;
+}
+
+.meta-wrap .meta span {
+    margin-right: 1rem !important;
+}
+
+.left-area {
+    background-color: #f8f9fa !important;
+}
+
+.search-input {
+    position: relative;
+    width: 350px;
+    line-height: 1.8;
+}
+
+.search-input span {
+    position: absolute;
+    top: 50%;
+    right: 7px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.search-input input {
+    border-radius: 0;
+}
+
+.category-area ul {
+    padding: 0;
+}
+
+.category-item {
+    text-decoration: none;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 20px;
+}
+
+.category-item li {
+    position: relative;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 10px;
+}
+
+.category-item a span {
+    position: absolute;
+    right: 0;
+}
+
+.article-popular {
+    line-height: 1.8;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: normal;
+    font-family: "Lora", Arial, serif;
+}
+
+.article-popular-area .text .meta>div {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.tag-area .tags {
+    padding: 0;
+    display: block;
+}
+
+.tag-area .tags a {
+    text-transform: uppercase;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #000000;
+    padding: 4px 8px;
+    margin-right: 4px;
+    margin-bottom: 3px;
+    font-size: 12px;
+    float: left;
+}
+
+.tag-area .tags a:hover {
+    color: darkcyan;
+}
